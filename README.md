@@ -12,3 +12,25 @@ This repository contains Python implementations for several different kinds of c
 ### 8. Contextual chatbot
 ### 9. Generative chatbot
 ### 10. Hybrid chatbot
+
+## Useful Commands
+### 1. Virtual Environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 2. API Key
+```bash
+python -m pip install openai python-dotenv
+python -m pip install -U google-genai
+python -m pip list
+touch .env
+```
+
+## Resources
+1. [Python Documentation](https://docs.python.org/3/)
+2. [Gemini API](https://ai.google.dev/gemini-api/docs/api-key)
+3. [OpenAI API Guide](https://developers.openai.com/api/docs/guides/text)
+4. [OpenAI API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety?utm_source=chatgpt.com)
+
